@@ -1,6 +1,10 @@
+# First steps
+
+Before we run the first _helloworld_ example we need to setup some stuff. You can skip to the _Running helloworld_ below if you have _scala_ and _sbt_ already setup.
+
 ## Needed software
 
-The following is how I would setup stuff on a *nix/osx. For windows I am clueless but I am sure we can work out something at the meetup.
+The following is how my setup is on a *nix/osx. For windows I am clueless but I am sure we can work out something at the meetup.
 
 ### Scala
 
@@ -44,6 +48,8 @@ We will cover plugins for _sbt_ at the meetup.
 
 [Download and install git.](http://git-scm.com/download)
 
+## Running Helloworld
+
 ### Checkout _helloworld_
 
 ```bash
@@ -65,14 +71,13 @@ Hello World!
 
 Congrats your setup clicked. And don't worry if things weren't as successful - that is one of the reasons why we meet.
 
-
-### Create a github account
-
-In case you don't have one [do create one](https://github.com/signup/free). Another great place is https://bitbucket.org/.
-
 ### IDE
 
 I would recommend [Intellij Community Edition](http://www.jetbrains.com/idea/download/) with the scala plugin. Here is a good writeup on setting up your intellij and other IDEs:
 
 https://github.com/coreyhaines/coderetreat/tree/master/starting_points/scala
+
+### Create a github account
+
+In case you don't have one [do create one](https://github.com/signup/free). Another great place is https://bitbucket.org/.
 
