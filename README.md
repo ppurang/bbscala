@@ -44,11 +44,11 @@ We will cover plugins for _sbt_ at the meetup.
 
 [Download and install git.](http://git-scm.com/download)
 
-### Checkout helloworld
+### Checkout _helloworld_
 
 ```bash
 > git clone https://github.com/ppurang/bbscala
-> cd 00000_meetup/helloworld
+> cd bbscala/00000_meetup/helloworld
 > sbt11
 -Dfile.encoding=UTF8 -Xms1024m -Xmx1024m -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256m -Dsbt.boot.directory=/home/ppurang/.sbt/boot/
 [info] Set current project to helloworld (in build file:/home/ppurang/repositories/github/meri/bbscala/00000_meetup/helloworld/)
