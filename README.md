@@ -19,7 +19,7 @@ After that you should be able to invoke _scala_ from anywhere at the command-lin
 
 Install [sbt](https://github.com/harrah/xsbt/wiki/Getting-Started-Setup). 
 
-My setup includes a _~/bin_ directory that is in my _PATH_. In there I have a _sbt-launch-0.11.1.jar_ and a script _sbt11_ that goes
+My setup includes a _~/bin_ directory that is in my _PATH_. In there I have a _sbt-launch-0.11.2.jar_ and a script _sbt11_ that goes
 
 ```bash
 #!/bin/sh
@@ -28,7 +28,7 @@ if test -f ~/.sbtconfig; then
 fi
 echo $SBT_OPTS
 
-java  ${SBT_OPTS} -jar `dirname $0`/sbt-launch-0.11.1.jar "$@"
+java  ${SBT_OPTS} -jar `dirname $0`/sbt-launch-0.11.2.jar "$@"
 ``` 
 The _~/.sbtconfig_ file is:
 
